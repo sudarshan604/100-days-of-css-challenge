@@ -1,0 +1,61 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #43389f 0%, #4ec6ca 100%);
+}
+
+.number .num-1 {
+  height: 80%;
+  width: 20px;
+  background-color: white;
+  z-index: 6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.number .num-slash {
+  height: 45%;
+  width: 20px;
+  background-color: white;
+  transform: rotate(45deg);
+  opacity: 0.99;
+}
+
+.number {
+  height: 100px;
+  display: flex;
+}
+.number .num-0 {
+  box-sizing: border-box;
+  height: 80%;
+  width: 70px;
+  border-width: 60px;
+  border-style: none;
+  border-radius: 50%;
+  border: 20px solid white;
+  background-color: none;
+  margin-left: 3px;
+}
+
+.num-0-1 {
+  position: relative;
+  left: -5px;
+  z-index: 4;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.num-0-2 {
+  position: relative;
+  left: -20px;
+  z-index: 0;
+}
