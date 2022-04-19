@@ -10,6 +10,7 @@ body {
   height: 500px;
   background-color: blue;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(45deg, #43389f 0%, #4ec6ca 100%);
@@ -34,6 +35,8 @@ body {
 .number {
   height: 100px;
   display: flex;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .number .num-0 {
   box-sizing: border-box;
@@ -58,4 +61,28 @@ body {
   position: relative;
   left: -20px;
   z-index: 0;
+}
+
+.days {
+  padding-top: 0px;
+  margin-top: -20px;
+  font-size: 50px;
+  color: white;
+  letter-spacing: 2px;
+}
+.days h3 {
+  margin: 0px;
+  font-weight: 900;
+}
+
+.css-ch p {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.css-ch {
+  margin-top: 0px;
 }
