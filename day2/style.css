@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.stripe {
+  height: 8px;
+  width: 100px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+.stripe-collection {
+  display: flex;
+  flex-direction: column;
+  background-color: #3cb371;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
