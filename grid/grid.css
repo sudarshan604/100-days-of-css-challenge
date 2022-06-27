@@ -1,0 +1,22 @@
+.container {
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: end;
+}
+.item {
+  background-color: steelblue;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+.item:nth-of-type(2) {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+  justify-self: center;
+}
